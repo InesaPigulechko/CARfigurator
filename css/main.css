@@ -1,0 +1,765 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.firstscreen {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+.button {
+  background-color: #05c7f2;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  height: 90px;
+  width: 250px;
+  margin: 0px;
+}
+.text .button:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.bg_photo {
+  /* background: rgb(102, 177, 58); */
+  height: 100vh;
+  width: 40%;
+  /* height: 100px; */
+}
+.text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+.bg_car {
+  width: 100%;
+  height: 100vh;
+}
+.intro {
+  font-family: roboto;
+  font-size: 36px;
+  color: #403b39;
+  /* background: #000; */
+  margin-bottom: 100px;
+}
+.start {
+  font-family: roboto;
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+}
+.logo_big_img {
+  width: 100px;
+}
+/* =================registration=================== */
+.registration {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+.log-in {
+  /* background: rgb(218, 155, 155); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sign-up {
+  /* background: #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_screen {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.text_sign-up {
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+  margin: 0;
+  padding-top: 3%;
+}
+
+input[type="text"],
+input[type="password"] {
+  /* padding: 12px; */
+  border: 3px solid #05c7f2;
+  background-color: #ffffff;
+  color: #403b39;
+  font-family: roboto;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 2%;
+}
+input[type="text1"] {
+  width: 29%;
+  border: 3px solid #05c7f2;
+  background-color: #ffffff;
+  color: #403b39;
+  font-family: roboto;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 2%;
+}
+.log-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo_small_img {
+  margin-bottom: 8%;
+}
+.button_enter {
+  border: 3px solid #05c7f2;
+  background-color: #05c7f2;
+  padding: 10px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 29%;
+}
+.enter {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+}
+.button_register {
+  border: 3px solid #05c7f2;
+  background-color: #05c7f2;
+  padding: 10px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.register {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 20px;
+}
+.sign-up .button_register:hover {
+  background-color: #024873;
+  border: 3px solid #024873;
+  transition: 0.5s;
+}
+.log-in .button_enter:hover {
+  background-color: #024873;
+  border: 3px solid #024873;
+  transition: 0.5s;
+}
+/* =========brand_selection=========== */
+.top_photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo_small_img_2 {
+  padding: 2%;
+}
+.profile {
+  padding: 2.5%;
+}
+.logo_s {
+  width: 300px;
+}
+.pf {
+  width: 200px;
+}
+.select_text {
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  margin: 0;
+}
+.select_text1 {
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  margin: 0;
+  /* background-color: antiquewhite; */
+}
+.select_city {
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin: 0;
+  /* background-color: rgb(221, 178, 121); */
+}
+.city_results {
+  display: flex;
+  /* background-color: rgb(172, 143, 143); */
+  justify-content: space-between;
+}
+/* .around_countries{
+    width: 100%;
+} */
+.countries,
+.countries1 {
+  font-family: roboto;
+  font-size: 24px;
+  display: flex;
+  color: #ffffff;
+  /* background: #7770a1; */
+  width: 70%;
+  justify-content: space-around;
+}
+.countries2 {
+  font-family: roboto;
+  font-size: 18px;
+  display: flex;
+  color: #ffffff;
+  /* background: #7770a1; */
+  width: 86%;
+  justify-content: space-between;
+  padding-bottom: 3%;
+}
+.around_countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.countries div {
+  width: 17%;
+  background: #05c7f2;
+}
+.countries1 div {
+  width: 25%;
+  background: #05c7f2;
+}
+.countries2 div {
+  width: 46%;
+  background: #05c7f2;
+}
+.de,
+.fr,
+.jp,
+.usa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+.de a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.fr a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.jp a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.usa a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.countries div:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.countries1 div:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.countries2 div:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.de1,
+.fr2,
+.jp3,
+.usa4 {
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+  padding: 2%;
+}
+.de_cars,
+.fr_cars,
+.jp_cars,
+.usa_cars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vw_img,
+.mb_img,
+.bmv_img,
+.audi_img {
+  height: 200px;
+}
+.ford_img,
+.chevrolet_img,
+.jeep_img {
+  height: 100px;
+}
+.de_cars p {
+  font-family: roboto;
+  font-size: 24px;
+  color: #024873;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+}
+.fr_cars p {
+  font-family: roboto;
+  font-size: 24px;
+  color: #024873;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+}
+.jp_cars p {
+  font-family: roboto;
+  font-size: 24px;
+  color: #024873;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+}
+.usa_cars p {
+  font-family: roboto;
+  font-size: 24px;
+  color: #024873;
+  /* background: #000; */
+  display: flex;
+  justify-content: center;
+}
+/* ===============profile================ */
+.logo_small_img3 {
+  padding-top: 5%;
+  padding-left: 5%;
+  /* background: #000; */
+}
+.profile_info {
+  width: 60%;
+}
+.profile_img {
+  height: 80px;
+}
+.profile_block {
+  padding-left: 5%;
+}
+.logo_small_img {
+  width: 300px;
+}
+
+.my_configurations a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.exit a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.get_car a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.profile_buttons {
+  padding-top: 5%;
+  height: 15%;
+  justify-content: space-between;
+  /* background-color: rgb(119, 95, 95); */
+  font-family: roboto;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding-left: 5%;
+}
+.profile_buttons div:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.profile_button {
+  font-family: roboto;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding-left: 5%;
+}
+.around_countries {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.profile_buttons div {
+  width: 90%;
+  background: #05c7f2;
+}
+.profile_button div {
+  width: 90%;
+  background: #bcf3ff;
+}
+.my_configurations,
+.exit,
+.get_car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.ready_state {
+  margin-top: 60px;
+  padding-left: 5%;
+  font-family: roboto;
+  font-size: 24px;
+  color: #403b39;
+}
+/* ======================= */
+.percent_part {
+  padding-left: 5%;
+}
+.border_percentline {
+  width: 90%;
+  /* padding-left: 2.5%; */
+  border: 3px solid #05c7f2;
+  /* background-color: #08404d; */
+  margin: 0px;
+  padding: 5px;
+}
+.percentline {
+  background-color: #05c7f2;
+  margin: -6px;
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+.dot {
+  margin: 0px;
+  padding-right: 5px;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 17px;
+}
+.percent_0to100 {
+  padding-left: 5%;
+}
+.zero_hundr {
+  display: flex;
+  justify-content: space-between;
+  width: 92%;
+  color: #403b39;
+  font-family: roboto;
+  font-size: 17px;
+}
+.zero_hundr p {
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+/* ==========saved_configurations============ */
+.config_main {
+  display: flex;
+}
+.config_main1 {
+  display: flex;
+}
+.car_description {
+  /* background-color: rgb(223, 190, 190); */
+  width: 50%;
+}
+.car_photo {
+  width: 50%;
+  /* background-color: rgb(162, 209, 209); */
+}
+.touareg_config {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+.touareg_config1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+}
+.car_title {
+  font-family: roboto;
+  font-size: 32px;
+  margin: 0px;
+  color: #024873;
+}
+.car_characteristics {
+  font-family: roboto;
+  font-size: 18px;
+  /* margin: 0px; */
+  color: #403b39;
+}
+.button_details {
+  background-color: #05c7f2;
+  width: 55%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.config_main .button_details:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.config_main1 .button_details:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+.button_details a {
+  font-family: roboto;
+  font-size: 18px;
+  margin: 0px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.config_main {
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+.config_main1 {
+  padding-bottom: 0.5%;
+  padding-top: 1%;
+}
+/* =====================configuration========================= */
+.img_touareg {
+  height: 300px;
+}
+.touareg_title {
+  display: flex;
+}
+.touareg_title_main {
+  display: flex;
+  /* background-color: rgb(92, 67, 67); */
+}
+.p_touareg {
+  font-family: roboto;
+  font-size: 50px;
+  margin: 0px;
+  color: #024873;
+  /* background-color: #05c7f2; */
+}
+.touareg_title_main {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.photo_touareg {
+  width: 50%;
+  /* background-color: antiquewhite; */
+}
+.img_touareg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.create_conf {
+  font-family: roboto;
+  font-size: 18px;
+  color: #403b39;
+}
+.button_benzine {
+  background-color: #05c7f2;
+  width: 86%;
+  /* padding: 1%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button_benzine_main div:focus {
+  background-color: yellow;
+  transition: 0.5s;
+}
+.button_benzine_main div:hover {
+  background-color: #024873;
+  transition: 0.5s;
+}
+
+.button_benzine a {
+  font-family: roboto;
+  font-size: 18px;
+  margin: 1%;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button_benzine_main {
+  display: flex;
+  justify-content: center;
+}
+.benzin_details {
+  font-family: roboto;
+  font-size: 18px;
+  padding-left: 7%;
+  color: #403b39;
+}
+.benzin_details1 {
+  font-family: roboto;
+  font-size: 18px;
+  padding-left: 7%;
+  color: #024873;
+}
+.color_main {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  width: 47%;
+  justify-content: space-between;
+  /* width: 50%; */
+  /* padding-left: 7%; */
+}
+.color_main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: rgb(116, 154, 226); */
+  width: 47%;
+  /* width: 50%; */
+  /* padding-left: 7%; */
+}
+.img_color {
+  height: 100px;
+}
+.color_description {
+  margin: 0px;
+  font-family: roboto;
+  font-size: 18px;
+  color: #403b39;
+  padding-left: 5%;
+}
+.desc_costs {
+  /* background-color: bisque; */
+  width: 100%;
+}
+.color_costs {
+  margin: 0px;
+  font-family: roboto;
+  font-size: 18px;
+  color: #024873;
+  padding-left: 5%;
+  padding-top: 4%;
+}
+.colors_part {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 230px;
+  /* padding-left: 7%; */
+  /* width: 86%; */
+  /* background-color: rgb(136, 111, 111); */
+}
+.colors_part1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 370px;
+  /* padding-left: 7%; */
+  /* width: 86%; */
+  /* background-color: rgb(136, 111, 111); */
+}
+.two_columns {
+  display: flex;
+  /* background-color: aquamarine; */
+  width: 86%;
+  justify-content: space-between;
+}
+.color1 {
+  display: flex;
+}
+.disc_seat {
+  display: flex;
+  /* background-color: rgb(158, 85, 85); */
+  justify-content: center;
+  width: 100%;
+}
+.engine {
+  font-family: roboto;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  width: 47%;
+  justify-content: space-between;
+
+  /* padding-left: 7%; */
+  /* margin: 0px; */
+  color: #403b39;
+}
+.two_choices {
+  display: flex;
+  /* background-color: aquamarine; */
+  width: 86%;
+  justify-content: space-between;
+}
+.engine1 {
+  font-family: roboto;
+  font-size: 24px;
+
+  padding-left: 7%;
+  /* margin: 0px; */
+  color: #403b39;
+}
+.add_options_main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: blanchedalmond; */
+}
+.add_options_main1 {
+  padding-top: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: blanchedalmond; */
+}
+.add_options {
+  /* display: flex; */
+  width: 86%;
+  /* background-color: rgb(196, 168, 223); */
+}
+.add_options {
+  font-family: roboto;
+  font-size: 18px;
+
+  /* padding-left: 7%; */
+  /* margin: 0px; */
+  color: #403b39;
+}
+.costs {
+  color: #024873;
+  padding-top: 1%;
+  margin: 0px;
+}
+.total {
+  color: #024873;
+  font-family: roboto;
+  font-size: 34px;
+  padding-left: 7%;
+}
